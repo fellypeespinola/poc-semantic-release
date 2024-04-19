@@ -1,5 +1,5 @@
-const helloWorld = () => {
-  console.log('Hello World 3');
+const helloWorld = (msg) => {
+  console.log(msg);
 }
 
-helloWorld()
+helloWorld('Hello World');
